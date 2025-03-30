@@ -11,17 +11,20 @@
       background-color: #f8f9fa;
       color: #333;
     }
+
     header {
       background: url('图片1.png') no-repeat center center/cover;
       height: 300px;
       position: relative;
       color: white;
     }
+
     .banner {
       position: absolute;
       top: 40px;
       left: 40px;
     }
+
     .banner div {
       background-color: rgba(0, 41, 77, 0.85);
       padding: 8px 16px;
@@ -30,6 +33,7 @@
       border-radius: 5px;
       width: fit-content;
     }
+
     .title {
       position: absolute;
       bottom: 20px;
@@ -39,34 +43,67 @@
       padding: 10px 20px;
       border-radius: 6px;
     }
+
     .container {
       max-width: 1100px;
       margin: auto;
       padding: 40px 20px;
     }
+
     h2 {
       border-bottom: 2px solid #ccc;
       padding-bottom: 5px;
       margin-top: 50px;
       color: #003366;
     }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 30px;
     }
+
     .card {
       background: white;
       border-radius: 8px;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
+
     .important span {
       color: #c00;
       font-weight: bold;
     }
+
     a {
       color: #e46a00;
+    }
+
+    /* 🎯 新增部分：Workshop Chairs 展示样式 */
+    .workshop-chairs {
+      padding: 20px 0;
+    }
+
+    .chair-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .chair {
+      width: 200px;
+      text-align: center;
+    }
+
+    .chair img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -84,6 +121,7 @@
     <h2>Call for Papers</h2>
     <p style="text-align: justify;">The rapid growth of low-altitude intelligent networks, driven by UAVs, aerial mobility, and smart infrastructure, demands the synergistic integration of sensing, communication, computing, and control (ISCCC) to enable safe, efficient, and autonomous operations. Advances in AI, edge computing, 5G/6G, and distributed control systems have positioned ISCCC as a transformative paradigm for applications, such as drone delivery, air traffic management, precision agriculture, and urban surveillance. However, realizing this vision in dynamic, resource-constrained aerial environments presents significant challenges, including real-time data processing, latency-sensitive decision-making, spectrum coexistence, and cross-domain security.</p>
     <p style="text-align: justify;">This half-day workshop will explore cutting-edge innovations and practical solutions for ISCCC in low-altitude intelligent networking. Topics of interest include the co-design of sensing-communication waveforms, edge-AI-driven resource orchestration, distributed computing architectures, and intelligent control frameworks tailored for UAV swarms and aerial networks. By bridging academia and industry, the event aims to foster discussions on overcoming technical bottlenecks, unlocking new business models, and shaping regulatory policies to drive the sustainable expansion of the low-altitude economies. We invite researchers and practitioners to share insights on advancing ISCCC technologies to build scalable, resilient, and intelligent aerial ecosystems. </p>
+
     <h2>Topics of Interest</h2>
     <div class="card">
      <p><strong>Key themes include, but are not limited to:</strong></p>
@@ -100,32 +138,31 @@
       </ul>
     </div>
 
- <h2>Workshop Chairs</h2>
-<div class="workshop-chairs">
-  <h2>Workshop Chairs</h2>
-  <div class="chair-list">
-    <div class="chair">
-      <img src="images/cx.png" alt="Ming-Min Zhao">
-      <p><strong>Ming-Min Zhao</strong><br>Zhejiang University, China</p>
+    <h2>Workshop Chairs</h2>
+    <div class="workshop-chairs">
+      <div class="chair-list">
+        <div class="chair">
+          <img src="images/cx.png" alt="Ming-Min Zhao">
+          <p><strong>Ming-Min Zhao</strong><br>Zhejiang University, China</p>
+        </div>
+        <div class="chair">
+          <img src="images/cx.png" alt="Min Li">
+          <p><strong>Min Li</strong><br>Zhejiang University, China</p>
+        </div>
+        <div class="chair">
+          <img src="images/cx.png" alt="Qingqing Wu">
+          <p><strong>Qingqing Wu</strong><br>Shanghai Jiao Tong University, China</p>
+        </div>
+        <div class="chair">
+          <img src="images/cx.png" alt="Osvaldo Simeone">
+          <p><strong>Osvaldo Simeone</strong><br>King's College London, UK</p>
+        </div>
+        <div class="chair">
+          <img src="images/cx.png" alt="Rui Zhang">
+          <p><strong>Rui Zhang</strong><br>CUHK Shenzhen & NUS</p>
+        </div>
+      </div>
     </div>
-    <div class="chair">
-      <img src="images/cx.png" alt="Min Li">
-      <p><strong>Min Li</strong><br>Zhejiang University, China</p>
-    </div>
-    <div class="chair">
-      <img src="images/cx.png" alt="Qingqing Wu">
-      <p><strong>Qingqing Wu</strong><br>Shanghai Jiao Tong University, China</p>
-    </div>
-    <div class="chair">
-      <img src="images/cx.png" alt="Osvaldo Simeone">
-      <p><strong>Osvaldo Simeone</strong><br>King's College London, UK</p>
-    </div>
-    <div class="chair">
-      <img src="images/cx.png" alt="Rui Zhang">
-      <p><strong>Rui Zhang</strong><br>CUHK Shenzhen & NUS</p>
-    </div>
-  </div>
-</div>
 
     <h2>Technical Committee Members</h2>
     <div class="card">
