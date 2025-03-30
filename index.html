@@ -2,126 +2,145 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VTC-Fall 2025 Workshop W13</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>W13: ISCCC for Low-Altitude Intelligent Networking</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f8f9fa;
-      color: #333;
       margin: 0;
-      padding: 0;
-      line-height: 1.6;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
     }
     header {
-      background: #003366;
+      background: url('图片1.png') no-repeat center center/cover;
+      height: 300px;
+      position: relative;
       color: white;
-      padding: 20px;
-      text-align: center;
     }
-    section {
-      padding: 30px;
-      max-width: 900px;
+    .banner {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
+    .banner div {
+      background-color: rgba(0, 41, 77, 0.85);
+      padding: 8px 16px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      width: fit-content;
+    }
+    .title {
+      position: absolute;
+      bottom: 20px;
+      left: 40px;
+      font-size: 1.8rem;
+      background: rgba(0, 41, 77, 0.85);
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+    .container {
+      max-width: 1100px;
       margin: auto;
+      padding: 40px 20px;
     }
     h2 {
-      border-bottom: 2px solid #ddd;
+      border-bottom: 2px solid #ccc;
       padding-bottom: 5px;
-      margin-top: 40px;
+      margin-top: 50px;
+      color: #003366;
     }
-    ul {
-      padding-left: 20px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
     }
-    footer {
-      text-align: center;
-      background: #eee;
-      padding: 10px;
-      font-size: 0.9em;
-      margin-top: 40px;
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
-    .date {
-      font-weight: bold;
+    .important span {
       color: #c00;
+      font-weight: bold;
+    }
+    a {
+      color: #e46a00;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>W13: ISCCC for Low-Altitude Intelligent Networking</h1>
-    <p>VTC-Fall 2025 Workshop</p>
+    <div class="banner">
+      <div>VTC2025-Fall</div>
+      <div>Chengdu, China</div>
+      <div>19 - 22 October</div>
+    </div>
+    <div class="title">W13: Integrated Sensing, Communication, Computing and Control for Low-Altitude Intelligent Networking</div>
   </header>
 
-  <section>
+  <div class="container">
     <h2>Call for Papers</h2>
-    <p>
-      The rapid growth of low-altitude intelligent networks, driven by UAVs, aerial mobility, and smart infrastructure, demands the synergistic integration of sensing, communication, computing, and control (ISCCC). This workshop explores innovations and solutions for ISCCC in aerial environments, addressing challenges in real-time processing, decision-making, spectrum usage, and security.
-    </p>
-  </section>
+    <p>The rapid growth of low-altitude intelligent networks, driven by UAVs, aerial mobility, and smart infrastructure, demands the synergistic integration of sensing, communication, computing, and control (ISCCC) to enable safe, efficient, and autonomous operations. Advances in AI, edge computing, 5G/6G, and distributed control systems have positioned ISCCC as a transformative paradigm...</p>
 
-  <section>
-    <h2>Important Dates</h2>
-    <ul>
-      <li><span class="date">Submission Deadline (Extended):</span> 24 May 2025</li>
-      <li><span class="date">Acceptance Notification:</span> 15 July 2025</li>
-      <li><span class="date">Final Paper Submission:</span> 29 July 2025</li>
-      <li><span class="date">Conference Date:</span> 19–22 October 2025</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Workshop Chairs</h2>
-    <ul>
-      <li>Ming-Min Zhao, Zhejiang University, China</li>
-      <li>Min Li, Zhejiang University, China</li>
-      <li>Qingqing Wu, Shanghai Jiao Tong University, China</li>
-      <li>Osvaldo Simeone, King’s College London, UK</li>
-      <li>Rui Zhang, CUHK Shenzhen & NUS</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Technical Committee Members</h2>
-    <ul>
-      <li>Yong Zeng, Southeast University, China</li>
-      <li>Changsheng You, SUSTech, China</li>
-      <li>Weidong Mei, UESTC, China</li>
-      <li>Beixiong Zheng, SCUT, China</li>
-      <li>Xiaoling Hu, BUPT, China</li>
-      <li>Chunshan Liu, Hangzhou Dianzi University, China</li>
-      <li>Zhiqiang Wei, Xi’an Jiaotong University, China</li>
-      <li>Jinbei Zhang, Sun Yat-sen University, China</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Submission Requirements</h2>
-    <p>
-      Papers should be 5 pages (no overlength charge). Up to 2 additional pages may be submitted with a fee of $100 USD per page at final submission.
-    </p>
-  </section>
-
-  <section>
     <h2>Topics of Interest</h2>
-    <ul>
-      <li>Network architectures and protocols for low-altitude intelligent networking</li>
-      <li>Wireless technologies and physical layer designs</li>
-      <li>Integrated sensing, communication, computing, and control</li>
-      <li>AI/ML-driven resource allocation</li>
-      <li>Navigation and environmental adaptation</li>
-      <li>Ultra-reliable low-latency control</li>
-      <li>Edge learning and distributed intelligence</li>
-      <li>Security, privacy, and trust</li>
-      <li>Standardization and UAV swarm deployment</li>
-    </ul>
-  </section>
+    <div class="card">
+      <ul>
+        <li>Network architectures and protocols for low-altitude intelligent networking</li>
+        <li>Wireless technologies and physical layer designs</li>
+        <li>Integrated sensing, communication, computing and control</li>
+        <li>AI/ML-driven resource allocation</li>
+        <li>Sensing, navigation, and environmental adaptation</li>
+        <li>Ultra-reliable low-latency control</li>
+        <li>Edge learning and distributed intelligence</li>
+        <li>Security, privacy, and trust mechanisms</li>
+        <li>Standardization and real-world deployment</li>
+      </ul>
+    </div>
 
-  <section>
-    <h2>More Info</h2>
-    <p>Visit: <a href="https://events.vtsociety.org/vtc2025-fall/" target="_blank">https://events.vtsociety.org/vtc2025-fall/</a></p>
-  </section>
+    <h2>Workshop Chairs</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Ming-Min Zhao</strong>, Zhejiang University, China</li>
+        <li><strong>Min Li</strong>, Zhejiang University, China</li>
+        <li><strong>Qingqing Wu</strong>, Shanghai Jiao Tong University, China</li>
+        <li><strong>Osvaldo Simeone</strong>, King's College London, UK</li>
+        <li><strong>Rui Zhang</strong>, CUHK Shenzhen & NUS</li>
+      </ul>
+    </div>
 
-  <footer>
-    &copy; 2025 IEEE VTC-Fall Workshop W13
-  </footer>
+    <h2>Technical Committee Members</h2>
+    <div class="card">
+      <ul>
+        <li>Yong Zeng, Southeast University</li>
+        <li>Changsheng You, SUSTech</li>
+        <li>Weidong Mei, UESTC</li>
+        <li>Beixiong Zheng, SCUT</li>
+        <li>Xiaoling Hu, BUPT</li>
+        <li>Chunshan Liu, Hangzhou Dianzi University</li>
+        <li>Zhiqiang Wei, Xi'an Jiaotong University</li>
+        <li>Jinbei Zhang, Sun Yat-sen University</li>
+      </ul>
+    </div>
+
+    <h2>Important Dates</h2>
+    <div class="card important">
+      <ul>
+        <li><span>Submission Deadline (Extended):</span> 24 May 2025</li>
+        <li><span>Acceptance Notification:</span> 15 July 2025</li>
+        <li><span>Final Paper Submission:</span> 29 July 2025</li>
+        <li><span>Conference:</span> 19–22 October 2025</li>
+      </ul>
+    </div>
+
+    <h2>Submission Requirements</h2>
+    <p class="card">
+      5-page paper (without overlength charge), and up to 2 additional pages are allowed with the purchase of additional page charges ($100 USD per page).
+    </p>
+
+    <h2>More Information</h2>
+    <p><a href="https://events.vtsociety.org/vtc2025-fall/" target="_blank">https://events.vtsociety.org/vtc2025-fall/</a></p>
+  </div>
 </body>
 </html>
