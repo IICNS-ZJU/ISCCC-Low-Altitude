@@ -105,6 +105,26 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.15);
       margin-bottom: 10px;
     }
+.tpc-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 20px;
+}
+.tpc-member {
+  width: 160px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.tpc-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+}
   </style>
 </head>
 <body>
@@ -166,16 +186,40 @@
 
     <h2>Technical Committee Members</h2>
     <div class="card">
-      <ul>
-        <li>Yong Zeng, Southeast University</li>
-        <li>Changsheng You, SUSTech</li>
-        <li>Weidong Mei, UESTC</li>
-        <li>Beixiong Zheng, SCUT</li>
-        <li>Xiaoling Hu, BUPT</li>
-        <li>Chunshan Liu, Hangzhou Dianzi University</li>
-        <li>Zhiqiang Wei, Xi'an Jiaotong University</li>
-        <li>Jinbei Zhang, Sun Yat-sen University</li>
-      </ul>
+        <div class="tpc-grid">
+          <div class="tpc-member">
+            <img src="cx.png" alt="Yong Zeng">
+            <p>Yong Zeng<br>Southeast University</p>
+          </div>
+          <div class="tpc-member">
+            <img src="cx.png" alt="Changsheng You">
+            <p>Changsheng You<br>SUSTech</p>
+          </div>
+          <div class="tpc-member">
+            <img src="cx.png" alt="Weidong Mei">
+            <p>Weidong Mei<br>UESTC</p>
+          </div>
+          <div class="tpc-member">
+            <img src="cx.png" alt="Beixiong Zheng">
+            <p>Beixiong Zheng<br>SCUT</p>
+          </div>
+          <div class="tpc-member">
+            <img src="cx.png" alt="Xiaoling Hu">
+            <p>Xiaoling Hu<br>BUPT</p>
+          </div>
+          <div class="tpc-member">
+            <img src="cx.png" alt="Chunshan Liu">
+            <p>Chunshan Liu<br>Hangzhou Dianzi University</p>
+          </div>
+          <div class="tpc-member">
+            <img src="cx.png" alt="Zhiqiang Wei">
+            <p>Zhiqiang Wei<br>Xi'an Jiaotong University</p>
+          </div>
+          <div class="tpc-member">
+            <img src="cx.png" alt="Jinbei Zhang">
+            <p>Jinbei Zhang<br>Sun Yat-sen University</p>
+          </div>
+        </div>
     </div>
 
     <h2>Important Dates</h2>
